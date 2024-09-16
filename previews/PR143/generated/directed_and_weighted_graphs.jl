@@ -45,6 +45,7 @@
 using DelimitedFiles
 using SimpleWeightedGraphs, Graphs
 using NetworkDynamics
+using OrdinaryDiffEqTsit5
 using OrdinaryDiffEqSDIRK
 using Plots
 
