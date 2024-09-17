@@ -45,7 +45,8 @@
 using DelimitedFiles
 using SimpleWeightedGraphs, Graphs
 using NetworkDynamics
-using OrdinaryDiffEq
+using OrdinaryDiffEqTsit5
+using OrdinaryDiffEqSDIRK
 using Plots
 
 # adjust the load path for your filesystem!

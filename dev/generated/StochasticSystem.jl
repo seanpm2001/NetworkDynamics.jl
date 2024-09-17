@@ -45,7 +45,7 @@
 # parameters to be $M_i = 1.0$ and $D_i = 0.1$. The default coupling strength is $K=6$.
 
 using NetworkDynamics, Graphs
-using StochasticDiffEq, OrdinaryDiffEq
+using StochasticDiffEq, OrdinaryDiffEqTsit5
 using Plots, LaTeXStrings
 
 function swing_equation!(dv, v, esum, (M, P, D), t)

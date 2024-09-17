@@ -22,7 +22,7 @@
 
 using Graphs
 using NetworkDynamics
-using OrdinaryDiffEq
+using OrdinaryDiffEqTsit5
 using Plots
 
 function diffusionedge!(e, v_s, v_d, p, t)
